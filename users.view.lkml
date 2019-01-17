@@ -12,6 +12,8 @@ view: users {
     sql: ${TABLE}.age ;;
   }
 
+  # COMMIT A
+
   dimension: city {
     type: string
     sql: ${TABLE}.city ;;
