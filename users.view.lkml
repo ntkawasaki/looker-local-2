@@ -12,6 +12,11 @@ view: users {
     sql: ${TABLE}.age ;;
   }
 
+  dimension: city {
+    type: string
+    sql: ${TABLE}.city ;;
+  }
+
   dimension: country {
     type: string
     map_layer_name: countries
@@ -55,11 +60,6 @@ view: users {
   dimension: state {
     type: string
     sql: ${TABLE}.state ;;
-  }
-
-  dimension: state_2 {
-    type: string
-    sql: ${state} ;;
   }
 
   dimension: zip {
