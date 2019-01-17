@@ -17,6 +17,9 @@ view: users {
   # COMMIT B
 
   # COMMIT C
+
+  # COMMIT D
+
   dimension: city {
     type: string
     sql: ${TABLE}.city ;;
